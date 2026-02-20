@@ -1,0 +1,106 @@
+.signupContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.leftSide{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.formData{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formData input{
+    width: 400px;
+    margin: 10px 0;
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.moreDetails{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.remeber{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remeber input{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #1f3d88;
+}
+.imgBG{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1426;
+    border-radius: 30px;
+}
+
+.imgBG img{
+    width: 45%;
+    height: 45%;
+    object-fit: cover;
+}
+.rightSide{
+    position: relative;
+    width: 35%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #0b1426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBtn{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #1f3d88;
+    color: white;
+}
