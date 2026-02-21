@@ -113,7 +113,7 @@ body {
 
 .sideBar {
   background-color: var(--sidebar-bg);
-  height: 800px;
+  height: 100Vh;
   border-radius: 10px;
   position: sticky;
   top: 10px;
@@ -596,15 +596,22 @@ body {
   .headContainer {
     display: none;
   }
+
+  .statsContainer, .quickActionContainer, .recentActivityContainer{
+    position: relative;
+    top: 115px;
+  }
 }
 
 @media (max-width: 767px) {
   .statsContainer .col-6 {
     position: relative;
-    top: 100px;
+    top: 40px;
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+
   
   .card {
     padding: 12px;
@@ -654,12 +661,12 @@ body {
 
   .quickActionContainer{
     position: relative;
-    top: 100px;
+    top: 160px;
   }
 
   .recentActivityContainer{
     position: relative;
-    top: 100px;
+    top: 160px;
   }
 }
 
