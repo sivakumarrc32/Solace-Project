@@ -154,7 +154,7 @@ const Signup = () => {
                           className={touched.password && errors.password ? 'error' : ''}/>
                         <label className="labelline" htmlFor="">Password</label>
                         <i 
-                          className={`bx ${showPassword ? 'bx-show' : 'bx-hide'}`}
+                          className={`bx ${showPassword ? 'bx-eye' : 'bx-eye-closed'}`}
                           onClick={togglePasswordVisibility}
                         ></i>
                         {touched.password && errors.password && (
